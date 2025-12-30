@@ -93,8 +93,34 @@ Readable, accessible typography
   - Chatbot (`ChatBootPage`)
 
 ### 3. Page Profil (`ProfilePage`)
-- Affiche les informations de l'utilisateur.
-- Permet de mettre à jour les données personnelles.
+
+Cette page permet à l’étudiant de **visualiser et modifier ses informations personnelles** (nom, email, avatar) en utilisant le **thème global** de l’application.
+
+---
+
+## Fonctionnalités
+
+- Affichage de l’**avatar** de l’étudiant.
+- Affichage du **nom** et de l’**email**.
+- **Bouton Modifier / Enregistrer** :
+  - Initialement, les champs sont désactivés.
+  - Cliquer sur **Modifier** active les champs.
+  - Cliquer sur **Enregistrer** sauvegarde les informations et désactive les champs.
+- Notifications via **SnackBar** après mise à jour.
+- Design **moderne et épuré**, couleurs douces et uniformes.
+
+---
+
+## Structure du code
+
+### Page principale
+- `ProfilePage` : page principale en `StatefulWidget`.
+
+### Sous‑widgets
+- `ProfileAvatar` : affiche l’image de profil.  
+- `ProfileField` : champ texte pour nom et email, stylisé avec bord arrondi et fond gris clair.  
+- `ProfileButton` : bouton Modifier / Enregistrer, stylisé avec couleur primaire et bord arrondi.
+.
 
 
 ### 4. Page Paramètres (`SettingsPage`)
@@ -122,22 +148,27 @@ Readable, accessible typography
 ## 🖼 Screenshots
 
 ### Page Accueil
-![Home Page](assets/screenshots/home_page.pn)
-g
+<img src="assets/screenshots/home_page.png" alt="Home Screen" width="250" />
+
 ### Drawer Menu
-<img src="assets/screenshots/home_page.png" alt="Home Page" width="500"/>
+<img src="assets/screenshots/drawer_menu.png" alt="Drawer Menu" width="250" />
 
 ### Page Profil
-![Profile Page](assets/screenshots/profile_page.png)
+<img src="assets/screenshots/profile_page.png" alt="Profile Screen" width="250" />
+<img src="assets/screenshots/profile_edit_page.png" alt="Profile Edit Screen" width="250" />
+<img src="assets/screenshots/profile_success_page.png" alt="Profile Success Screen" width="250" />
+
 
 ### Page Paramètres
-![Settings Page](assets/screenshots/settings_page.png)
+<img src="assets/screenshots/settings_page.png" alt="Settings Screen" width="250" />
+
 
 ### Page À propos
-![About Page](assets/screenshots/about_page.png)
+<img src="assets/screenshots/about_page.png" alt="About Screen" width="250" />
+
 
 ### Page Chatbot
-![Chatbot Page](assets/screenshots/chatbot_page.png)
+<img src="assets/screenshots/chatbot_page.png" alt="Chatbot Screen" width="250" />
 
 ---
 
