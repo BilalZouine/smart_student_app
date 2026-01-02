@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:smart_student_app/them/app_colors.dart';
-import 'package:smart_student_app/widgets/ProfileAvatar.dart';
-import 'package:smart_student_app/widgets/ProfileButton.dart';
-import 'package:smart_student_app/widgets/ProfileField.dart';
+import 'package:smart_student_app/widgets/profile/ProfileAvatar.dart';
+import 'package:smart_student_app/widgets/profile/ProfileButton.dart';
+import 'package:smart_student_app/widgets/profile/ProfileField.dart';
 
 class ProfilePage extends StatefulWidget {
   const ProfilePage({super.key});

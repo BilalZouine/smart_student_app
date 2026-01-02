@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:smart_student_app/pages/AboutPage.dart';
 import 'package:smart_student_app/pages/ChatbotPage.dart';
 import 'package:smart_student_app/pages/HomePage.dart';
 import 'package:smart_student_app/pages/ProfilePage.dart';
+import 'package:smart_student_app/pages/about_page.dart';
 import 'package:smart_student_app/pages/settingsPage.dart';
 import 'package:smart_student_app/them/app_them.dart';
 
