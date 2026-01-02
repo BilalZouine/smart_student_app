@@ -336,6 +336,13 @@ Les captures illustrent :
 
 ---
 
+### Page Chatbot
+<img src="assets/screenshots/chatbot_page.png" width="250" alt="Chatbot"/>
+
+*smart assistant pour les étudiant*
+
+---
+
 
 ## ✅ Conclusion
 
