@@ -323,6 +323,7 @@ Les captures illustrent :
 <div style="display: flex; gap: 10px;">
   <img src="assets/screenshots/profile_page.png" width="250" alt="Profil lecture"/>
   <img src="assets/screenshots/profile_edit_page.png" width="250" alt="Profil édition"/>
+  <img src="assets/screenshots/profile_success_page.png" width="250" alt="Profil édition"/>
 </div>
 
 *Mode lecture et mode édition du profil*

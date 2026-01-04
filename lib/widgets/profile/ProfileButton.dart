@@ -15,7 +15,6 @@ class ProfileButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return SizedBox(
       width: double.infinity,
-      height: 50,
       child: ElevatedButton(
         onPressed: onPressed,
         style: ElevatedButton.styleFrom(
@@ -24,9 +23,26 @@ class ProfileButton extends StatelessWidget {
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(12),
           ),
-          textStyle: const TextStyle(fontSize: 18, fontWeight: FontWeight.w500),
+          padding: const EdgeInsets.symmetric(vertical: 16),
+          elevation: 0,
+          shadowColor: Colors.transparent,
         ),
-        child: Text(isEditing ? 'Enregistrer' : 'Modifier'),
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Icon(
+              isEditing ? Icons.check_rounded : Icons.edit_outlined,
+              size: 20,
+            ),
+            const SizedBox(width: 8),
+            Text(
+              isEditing
+                  ? 'Enregistrer les modifications'
+                  : 'Modifier le profil',
+              style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
+            ),
+          ],
+        ),
       ),
     );
   }
